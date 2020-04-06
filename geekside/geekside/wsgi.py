@@ -1,5 +1,5 @@
 """
-WSGI config for geelside project.
+WSGI config for geekside project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'geelside.settings.development')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'geekside.settings,development')
 
 application = get_wsgi_application()
